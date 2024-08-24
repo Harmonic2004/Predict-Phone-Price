@@ -48,16 +48,16 @@ def transformation(original_list):
     original_list = ast.literal_eval(original_list)
     
     print(original_list)
-    
+    #['Hãng sản xuất_', 'Rom', 'Ram', 'Kích thước màn hình', 'Dung lượng pin', 'Primary', 'Ultra_Wide', 'Telephoto']
     new_list = [
-        int(original_list[1]), #Brand name
-        float(original_list[2]), #Bo nho trong
-        float(original_list[3]),
-        float(original_list[5]),
+        int(original_list[-1]), #Brand name
+        float(original_list[3]), #Bo nho trong
+        float(original_list[4]),
         float(original_list[6]),
-        float(original_list[7]),
         float(original_list[8]),
-        float(original_list[9])
+        float(original_list[10]),
+        float(original_list[11]),
+        float(original_list[12])
     ]
     
     print(new_list)
@@ -71,6 +71,6 @@ def transformation(original_list):
     new_list.extend(price)
     return new_list    
 
-# original_list = "[2,2, 128.0, 6.0, 'Apple A15 Bionic',6.1, 3279.0, 12, 12, 0, 25990000.0]"
+# original_list = "[0,'Samsung Galaxy A05 (4G) 4GB 128GB Chính Hãng','Samsung',128.0,4.0,'Helio G85',6.7,'50MP - 2MP',5000.0,3090000.0,50,2,0,1]"
 
 # print(transformation(original_list))

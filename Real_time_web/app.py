@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from .get_Data_from_hbase import get_last_record_from_hbase
+from get_Data_from_hbase import get_last_record_from_hbase
 
 
 app = Flask(__name__)

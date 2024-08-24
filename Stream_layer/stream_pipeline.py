@@ -1,5 +1,5 @@
 import time
-from ..producer import send_message
+from producer import send_message
 from Stream_layer.ML_consumer import consum
 import threading
 from Stream_data.stream_data import generate_real_time_data
@@ -8,7 +8,7 @@ from Stream_data.stream_data import generate_real_time_data
 def producer_thread():
     while True:
         try:
-            file_path = r'/home/hadoop/Predict-Phone-Price/ML/phone_data_ml.csv'
+            file_path = r'/home/hadoop/Predict-Phone-Price/Tranform_data/data_useBatch.csv'
             message = generate_real_time_data(file_path)
 
             send_message(message)

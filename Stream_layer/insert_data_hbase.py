@@ -3,8 +3,6 @@ import happybase
 
 
 
-
-
 def insert_dataHbase(data):
     connection = happybase.Connection('localhost')
     connection.open()
