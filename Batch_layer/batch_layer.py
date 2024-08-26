@@ -7,5 +7,4 @@ def batch_layer():
     data = spark_tranform()
     save_data(data)
     
-if __name__ == "__main__":
-    batch_layer()
+# doc

@@ -1,0 +1,322 @@
+[2024-08-24T03:06:07.908+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:06:07.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:06:07.917+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:06:07.916+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:06:07.986+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:06:07.959+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:06:07.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:06:08.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.268 seconds
+[2024-08-24T03:09:36.464+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:09:36.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:09:36.473+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:09:36.472+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:09:36.501+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:09:36.488+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:09:36.503+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:09:36.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.121 seconds
+[2024-08-24T03:10:06.801+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:10:06.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:10:06.808+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:10:06.807+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:10:06.823+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:10:06.816+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:10:06.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:10:06.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.108 seconds
+[2024-08-24T03:10:37.020+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:10:37.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:10:37.030+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:10:37.029+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:10:37.041+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:10:37.037+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:10:37.042+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:10:37.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.076 seconds
+[2024-08-24T03:11:07.276+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:11:07.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:11:07.287+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:11:07.286+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:11:07.294+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:11:07.292+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:11:07.294+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:11:07.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.093 seconds
+[2024-08-24T03:11:37.905+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:11:37.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:11:37.943+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:11:37.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:11:37.972+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:11:37.960+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:11:37.993+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:11:38.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.211 seconds
+[2024-08-24T03:12:08.506+0000] {processor.py:186} INFO - Started process (PID=455) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:12:08.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:12:08.511+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:12:08.510+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:12:08.545+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:12:08.540+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:12:08.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:12:08.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.162 seconds
+[2024-08-24T03:12:38.752+0000] {processor.py:186} INFO - Started process (PID=518) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:12:38.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:12:38.762+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:12:38.761+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:12:38.774+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:12:38.769+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:12:38.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:12:38.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.090 seconds
+[2024-08-24T03:13:09.676+0000] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:13:09.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:13:09.683+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:13:09.682+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:13:09.696+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:13:09.690+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:13:09.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:13:09.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.155 seconds
+[2024-08-24T03:13:40.304+0000] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:13:40.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:13:40.310+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:13:40.309+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:13:40.319+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:13:40.314+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:13:40.320+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:13:40.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.101 seconds
+[2024-08-24T03:14:10.567+0000] {processor.py:186} INFO - Started process (PID=702) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:14:10.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:14:10.573+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:14:10.573+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:14:10.584+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:14:10.580+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:14:10.585+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:14:10.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.070 seconds
+[2024-08-24T03:14:40.969+0000] {processor.py:186} INFO - Started process (PID=765) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:14:40.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:14:40.974+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:14:40.974+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:14:40.987+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:14:40.982+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:14:40.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:14:41.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.066 seconds
+[2024-08-24T03:15:11.581+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:15:11.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:15:11.591+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:15:11.591+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:15:11.628+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:15:11.604+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:15:11.629+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:15:11.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.159 seconds
+[2024-08-24T03:15:42.054+0000] {processor.py:186} INFO - Started process (PID=890) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:15:42.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:15:42.060+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:15:42.060+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:15:42.069+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:15:42.065+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:15:42.069+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:15:42.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.058 seconds
+[2024-08-24T03:21:24.295+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:21:24.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:21:24.322+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:21:24.321+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:21:24.342+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:21:24.325+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:21:24.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:21:24.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.649 seconds
+[2024-08-24T03:36:36.596+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:36:36.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T03:36:36.610+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:36:36.609+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:36:36.623+0000] {logging_mixin.py:190} INFO - [2024-08-24T03:36:36.614+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 4, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T03:36:36.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T03:36:36.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.110 seconds
+[2024-08-24T18:08:31.282+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:08:31.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:08:31.338+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:08:31.337+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:08:31.377+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:08:31.368+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:08:31.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:08:32.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 1.140 seconds
+[2024-08-24T18:11:11.622+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:11:11.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:11:11.629+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:11:11.629+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:11:11.637+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:11:11.632+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:11:11.637+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:11:11.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.081 seconds
+[2024-08-24T18:11:42.491+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:11:42.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:11:42.534+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:11:42.533+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:11:42.570+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:11:42.561+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:11:42.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:11:42.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.656 seconds
+[2024-08-24T18:12:13.288+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:12:13.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:12:13.298+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:12:13.297+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:12:13.311+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:12:13.304+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:12:13.311+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:12:13.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.107 seconds
+[2024-08-24T18:12:46.172+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:12:46.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:12:46.178+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:12:46.177+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:12:46.212+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:12:46.183+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:12:46.216+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:12:46.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.606 seconds
+[2024-08-24T18:13:38.431+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:13:38.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:13:38.481+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:13:38.480+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:13:38.553+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:13:38.492+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:13:38.554+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:13:38.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.324 seconds
+[2024-08-24T18:14:14.998+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:14:15.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/syc_with_Airflow.py for tasks to queue
+[2024-08-24T18:14:15.020+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:14:15.019+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:14:15.034+0000] {logging_mixin.py:190} INFO - [2024-08-24T18:14:15.025+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/syc_with_Airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/syc_with_Airflow.py", line 2, in <module>
+    from Batch_layer.batch_layer import  batch_layer
+ModuleNotFoundError: No module named 'Batch_layer'
+[2024-08-24T18:14:15.035+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/syc_with_Airflow.py
+[2024-08-24T18:14:15.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/syc_with_Airflow.py took 0.106 seconds
