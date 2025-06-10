@@ -50,7 +50,7 @@ Hệ thống gồm 5 lớp chính: thu thập dữ liệu, xử lý luồng, x�
 
 Dự án này sử dụng hai bảng điều khiển để trực quan hóa dự đoán giá điện thoại thông minh và dữ liệu lịch sử:
 
-#### **1. Flask app**
+#### **1. Flask web**
 
 - Bảng điều khiển này được xây dựng bằng ứng dụng web Flask.
 - Nó hiển thị **giá điện thoại thông minh dự đoán theo thời gian thực**.
@@ -58,7 +58,7 @@ Dự án này sử dụng hai bảng điều khiển để trực quan hóa dự
 
 Giao diện của ứng dụng web Flask như sau:
 
-![spring_boot_web_ap](images/spring_boot_web_app.png)
+![Flask_web](images/flask_web.png)
 
 #### **2. Bảng điều khiển theo lô (Power BI):**
 
